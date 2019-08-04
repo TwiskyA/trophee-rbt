@@ -1,0 +1,4 @@
+.main-info--subtitles {
+  display: flex;
+  justify-content: space-between;
+}
