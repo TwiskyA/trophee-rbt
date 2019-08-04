@@ -4,7 +4,7 @@ import './MainInfo.css';
 class MainInfo extends React.Component {
   render() {
     return (
-      <div>
+      <div className="main-info--wrapper">
         <h1>3ème Trophée de Rambouillet</h1>
         <div className="main-info--subtitles">
           <h2>Pôle culturel de la Lanterne</h2>
