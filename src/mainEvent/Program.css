@@ -1,4 +1,4 @@
-.programme--wrapper {
+.program--wrapper {
   display: flex;
   justify-content: space-between;
   padding: 15px;
@@ -6,16 +6,16 @@
   width: 100%;
 }
 
-.programme--column {
+.program--column {
   width: 45%;
 }
 
-.programme--separator {
+.program--separator {
   width: 0;
   border-right: 4px solid black;
   margin: 5px 0;
 }
 
-.programme--afternoon {
+.program--afternoon {
   margin-top: 5px;
 }
