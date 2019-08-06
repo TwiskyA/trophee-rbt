@@ -1,0 +1,22 @@
+h2 {
+    text-align: center;
+}
+
+.sign-in--wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 15px;
+  }
+  
+.sign-in--form {
+    margin: 10px 0 10px 50px;
+  }
+
+.sign-in--submit {
+    padding: 10px;
+    text-align: center;
+}
+

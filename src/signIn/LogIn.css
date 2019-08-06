@@ -1,0 +1,20 @@
+h2 {
+    text-align: center;
+}
+
+.log-in--wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 15px;
+  }
+  
+  .log-in--form {
+    margin: 10px 0 10px 50px;
+  }
+
+.log-in--submit {
+    text-align: center;
+}
