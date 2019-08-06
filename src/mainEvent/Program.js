@@ -8,7 +8,7 @@ class Program extends React.Component {
       <div className="program--wrapper">
         <div className="program--column">
           <div>
-            matin
+            <h2>matin</h2>
             <ul>
               <li>
                 9h-12h
@@ -17,7 +17,7 @@ class Program extends React.Component {
             </ul>
           </div>
           <div className="program--afternoon">
-            aprem
+            <h2>aprem</h2>
             <ul>
               <li>
                 14h-18h
@@ -28,7 +28,7 @@ class Program extends React.Component {
         </div>
         <div className="program--separator" />
         <div className="program--column">
-          soiree
+          <h2>soiree</h2>
           <ul>
             <li>
               19h-23h

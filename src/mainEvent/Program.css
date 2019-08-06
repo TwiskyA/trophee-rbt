@@ -19,3 +19,7 @@
 .program--afternoon {
   margin-top: 5px;
 }
+
+.program--column h2{
+  text-align: left;
+}
