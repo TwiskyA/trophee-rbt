@@ -6,4 +6,5 @@
 .main-info--wrapper {
   border: 1px solid black;
   padding: 15px;
+  border-radius: 10px;
 }

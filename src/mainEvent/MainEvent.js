@@ -2,6 +2,7 @@ import React from 'react';
 import MainInfo from './MainInfo';
 import './MainEvent.css';
 import Program from './Program';
+import Logistique from './Logistique';
 
 class MainEvent extends React.Component {
   render() {
@@ -9,6 +10,7 @@ class MainEvent extends React.Component {
       <div className="main-event--wrapper">
         <MainInfo />
         <Program />
+        <Logistique />
       </div>
     );
   }
