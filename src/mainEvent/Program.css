@@ -1,8 +1,8 @@
 .program--wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
-  margin: 5px 10px;
+  padding: 1em;
+  margin: 0.3em 0.6em;
   width: 100%;
 }
 
@@ -13,13 +13,17 @@
 .program--separator {
   width: 0;
   border-right: 2px solid black;
-  margin: 5px 0;
+  margin: 0.3em 0;
 }
 
 .program--afternoon {
-  margin-top: 5px;
+  margin-top: 0.3em;
 }
 
 .program--column h2{
   text-align: left;
+}
+
+.program-details--link a{
+  text-decoration: underline;
 }

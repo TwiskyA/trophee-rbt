@@ -1,18 +1,18 @@
-h2 {
+.log-in--wrapper h2 {
     text-align: center;
 }
 
 .log-in--wrapper {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     margin: auto;
     border: 1px solid black;
-    padding: 15px;
+    padding: 1em;
   }
   
-  .log-in--form {
-    margin: 10px 0 10px 50px;
+.log-in--form {
+    margin: 0 0 1.25em 1em;
   }
 
 .log-in--submit {

@@ -9,7 +9,7 @@ class ProgramDetails extends React.Component {
     const { folded } = this.state;
     const { content } = this.props;
     return (
-      <div>
+      <div className="program-details--link">
         <a onClick={this.toggleFolded}>Details</a>
         {!folded && <div>{content}</div>}
       </div>

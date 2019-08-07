@@ -12,7 +12,7 @@ class LogIn extends React.Component{
              </div>
              <div className="log-in--form">
                 <label for="mail"> Adresse e-mail : </label>
-                <input type="text" name="mail" id="mail" placeholder=" mail"/> 
+                <input type="mail" name="mail" id="mail" placeholder=" adresse@yahoo.fr"/> 
              </div>
          </div>
         );

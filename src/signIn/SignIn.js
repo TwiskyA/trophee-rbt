@@ -1,10 +1,12 @@
 import React from 'react';
 import './SignIn.css';
+import LogIn from './LogIn';
+import LogOff from './LogOff';
 
 class SignIn extends React.Component{
     render(){
         return (
-         <div className="sign-in--wrapper">
+            <form className="sign-in--wrapper">
              <h2>Création d'un compte</h2>
              <div className="sign-in--form">
                  <label for="identifiant"> Identifiants : </label>
@@ -55,7 +57,9 @@ class SignIn extends React.Component{
                 <span> </span>
                 <input type="reset" value="Annuler"/>
             </div>
-         </div>
+            <LogIn />
+            <LogOff />
+         </form>
         );
     }
 }
