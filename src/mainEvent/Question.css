@@ -1,0 +1,15 @@
+.question--wrapper {
+    width: 25%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 1.5em;
+    text-align: center;
+  }
+
+.question--compte {
+    margin: 1em;
+}
+
+.activeClassName {
+    color: green;
+}

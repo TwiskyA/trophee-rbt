@@ -1,6 +1,6 @@
 import React from 'react';
-import './Program.css';
 import ProgramDetails from './ProgramDetails';
+import './Program.css';
 
 class Program extends React.Component {
   render() {
@@ -31,8 +31,8 @@ class Program extends React.Component {
           <h2>soiree</h2>
           <ul>
             <li>
-              19h-23h
-              <ProgramDetails content="detail 19-23" />
+              20h-23h
+              <ProgramDetails content="detail 20-23" />
             </li>
           </ul>
         </div>

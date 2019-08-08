@@ -1,8 +1,9 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom'
 import MainInfo from './MainInfo';
-import './MainEvent.css';
 import Program from './Program';
 import Logistique from './Logistique';
+import './MainEvent.css';
 
 class MainEvent extends React.Component {
   render() {
@@ -11,6 +12,9 @@ class MainEvent extends React.Component {
         <MainInfo />
         <Program />
         <Logistique />
+        <div className="navlink">
+        <NavLink to='/question'>Accéder à la réservation</NavLink>
+        </div>
       </div>
     );
   }

@@ -1,3 +1,7 @@
 .main-event--wrapper {
   margin: 1em 10%;
-}
+  }
+
+  .navlink {
+    text-align: center;
+  }

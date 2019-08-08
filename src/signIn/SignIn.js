@@ -1,7 +1,5 @@
 import React from 'react';
 import './SignIn.css';
-import LogIn from './LogIn';
-import LogOff from './LogOff';
 
 class SignIn extends React.Component{
     render(){
@@ -57,8 +55,6 @@ class SignIn extends React.Component{
                 <span> </span>
                 <input type="reset" value="Annuler"/>
             </div>
-            <LogIn />
-            <LogOff />
          </form>
         );
     }

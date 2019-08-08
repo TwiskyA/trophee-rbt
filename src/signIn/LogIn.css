@@ -2,19 +2,29 @@
     text-align: center;
 }
 
+.log-in--wrapper h3 {
+  text-align: center;
+}
+
 .log-in--wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+    width: 30%;
     margin: auto;
     border: 1px solid black;
     padding: 1em;
   }
   
 .log-in--form {
-    margin: 0 0 1.25em 1em;
+    margin: 0 0 1.25em 3.25em;
   }
 
 .log-in--submit {
     text-align: center;
+}
+
+.sign-in--submit {
+  margin: 0.8em 3em 0.2em 3em;
+}
+
+.sign-in--submit span{
+  margin-left: 0.6em;
 }
