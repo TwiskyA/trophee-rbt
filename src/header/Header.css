@@ -5,3 +5,11 @@
     border: 1px dashed black;
     margin-bottom: 2em;
 }
+
+.container {
+    display: flex;
+}
+
+.container span {
+    width: 4em;
+}
