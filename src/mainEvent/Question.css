@@ -10,6 +10,6 @@
     margin: 1em;
 }
 
-.activeClassName {
-    color: green;
+.active {
+    background-color: green;
 }

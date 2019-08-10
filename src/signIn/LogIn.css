@@ -28,3 +28,7 @@
 .sign-in--submit span{
   margin-left: 0.6em;
 }
+
+.login--compte{
+  text-align: right;
+}

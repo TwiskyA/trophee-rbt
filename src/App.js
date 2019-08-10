@@ -6,6 +6,7 @@ import Question from './mainEvent/Question';
 import SignIn from './signIn/SignIn';
 import LogIn from './signIn/LogIn';
 import LogOff from './signIn/LogOff';
+import Code from './signIn/Code';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path='/login' component={LogIn} />
       <Route path='/logoff' component={LogOff} />
       <Route path='/question' component={Question} />
+      <Route path='/code' component={Code} />
     </BrowserRouter>
   );
 }

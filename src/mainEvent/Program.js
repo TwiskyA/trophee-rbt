@@ -12,7 +12,7 @@ class Program extends React.Component {
             <ul>
               <li>
                 9h-12h
-                <ProgramDetails content="detail 9-12" />
+                <ProgramDetails content="Compétitions Standards et Latines" />
               </li>
             </ul>
           </div>
@@ -21,7 +21,7 @@ class Program extends React.Component {
             <ul>
               <li>
                 14h-18h
-                <ProgramDetails content="detail 14-18" />
+                <ProgramDetails content="Compétitions Standards et Latines et petites finales" />
               </li>
             </ul>
           </div>
@@ -32,7 +32,7 @@ class Program extends React.Component {
           <ul>
             <li>
               20h-23h
-              <ProgramDetails content="detail 20-23" />
+              <ProgramDetails content="Finales des grandes compétitions Standards et Latines intercoupées de Shows" />
             </li>
           </ul>
         </div>

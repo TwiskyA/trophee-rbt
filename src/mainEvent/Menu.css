@@ -1,0 +1,14 @@
+.activated {
+    margin: 1em;
+    color: green;
+}
+
+.header--menu {
+    display: flex;
+}
+
+.menu {
+    width: 20%;
+    text-align: center;
+    
+}

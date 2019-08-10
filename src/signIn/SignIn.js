@@ -15,7 +15,11 @@ class SignIn extends React.Component{
                 <input type="text" name="mail" id="mail" placeholder=" adresse@yahoo.fr"/> 
              </div>
              <div className="sign-in--form">
-                <label for="age"> Renseigner votre date de naissance : </label>
+                <label for="text"> Mot de passe : </label> 
+                <input type="text" name="code" id="code" placeholder="Minimum 6 caractères"/> 
+             </div>
+             <div className="sign-in--form">
+                <label for="age"> Date de naissance : </label>
                 <input type="date" name="age" id="age"/> 
              </div>
              <div className="sign-in--form">
@@ -39,15 +43,15 @@ class SignIn extends React.Component{
              <div className="sign-in--form">
                 <label for="venu-premier"> Etiez-vous présent au 1er Trophée de Rambouillet ? : </label>
                 <select name="premier-trophee" id="premier-trophee">
-                    <option value="oui" selected>Oui</option> 
-                    <option value="non">Non</option>
+                    <option value="oui" >Oui</option> 
+                    <option value="non" selected>Non</option>
                 </select>
             </div>
             <div className="sign-in--form">
                 <label for="venu-deuxieme"> Etiez-vous présent au 2ème Trophée de Rambouillet ? : </label> 
                 <select name="deuxieme-trophee" id="deuxieme-trophee">
-                    <option value="oui" selected>Oui</option> 
-                    <option value="non">Non</option>
+                    <option value="oui" >Oui</option> 
+                    <option value="non" selected>Non</option>
                 </select>
             </div>
             <div className="sign-in--submit">

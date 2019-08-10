@@ -1,5 +1,6 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import Menu from './Menu';
 import MainInfo from './MainInfo';
 import Program from './Program';
 import Logistique from './Logistique';
@@ -9,11 +10,15 @@ class MainEvent extends React.Component {
   render() {
     return (
       <div className="main-event--wrapper">
+        <Menu/>
         <MainInfo />
         <Program />
+        <div className="link">
+        <Link to='/question' >Réservations →</Link>
+        </div>
         <Logistique />
-        <div className="navlink">
-        <NavLink to='/question'>Accéder à la réservation</NavLink>
+        <div className="link">
+        <Link to='/question'>Réservations →</Link>
         </div>
       </div>
     );

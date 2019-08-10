@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './LogIn.css';
 
 class LogIn extends React.Component{
@@ -6,19 +7,23 @@ class LogIn extends React.Component{
         return (
          <div className="log-in--wrapper">
              <h2>Connexion</h2>
-             <div className="log-in--form">
-                 <label for="identifiant"> Identifiants : </label>
-                 <input type="text" name="identifiant" id="nom" placeholder=" nom + prénom"/> 
-             </div>
-             <div className="log-in--form">
-                <label for="mail"> Adresse e-mail : </label>
-                <input type="mail" name="mail" id="mail" placeholder=" adresse@yahoo.fr"/> 
+             <form>
+                <div className="log-in--form">
+                    <label for="identifiant"> Identifiants : </label>
+                    <input type="text" name="identifiant" id="nom" placeholder=" nom + prénom"/> 
+                </div>
+                <div className="log-in--form">
+                    <label for="text"> Mot de passe : </label> 
+                    <input type="text" name="code" id="code" placeholder="Minimum 6 caractères"/> 
+                </div>
+                <div className="login--compte">
+                    <Link to='/code'>Mot de passe oublié ?</Link></div>
                 <div className="sign-in--submit">
                     <input type="submit" value="Oui"/>
                     <span> </span>
                     <input type="reset" value="Non"/>
                 </div>
-             </div>
+            </form>            
          </div>
         );
     }
