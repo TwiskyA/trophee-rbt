@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from "react-router-dom";
 import Header from './header/Header';
 import MainEvent from './mainEvent/MainEvent';
 import Question from './mainEvent/Question';
@@ -13,12 +13,12 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Route exact path='/' component={MainEvent} />
-      <Route path='/signin' component={SignIn} />
-      <Route path='/login' component={LogIn} />
-      <Route path='/logoff' component={LogOff} />
-      <Route path='/question' component={Question} />
-      <Route path='/code' component={Code} />
+      <Route exact path="/" component={MainEvent} />
+      <Route path="/authentication/signin" component={SignIn} />
+      <Route path="/authentication/login" component={LogIn} />
+      <Route path="/authentication/logoff" component={LogOff} />
+      <Route path="/reservation" component={Question} />
+      <Route path="/code" component={Code} />
     </BrowserRouter>
   );
 }

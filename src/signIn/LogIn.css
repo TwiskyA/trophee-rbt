@@ -30,5 +30,6 @@
 }
 
 .login--compte{
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
 }

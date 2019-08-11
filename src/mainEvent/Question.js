@@ -9,7 +9,7 @@ class Question extends React.Component {
               <h2>Identification</h2>
               <div className="question--compte">
                   <Link to='/login' >J'ai déja un compte</Link></div>
-              <div className="question--compte"><Link to='/signin'>Inscription et paiement</Link></div>
+              <div className="question--compte"><Link to='/authentication/signin'>Inscription et paiement</Link></div>
           </div>
       );
     }
