@@ -10,7 +10,7 @@ class ProgramDetails extends React.Component {
     const { content } = this.props;
     return (
       <div className="program-details--link">
-        <a onClick={this.toggleFolded}>Details</a>
+        <a onClick={this.toggleFolded}>Détails</a>
         {!folded && <div>{content}</div>}
       </div>
     );
