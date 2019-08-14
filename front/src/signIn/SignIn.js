@@ -2,29 +2,44 @@ import React from 'react';
 import './SignIn.css';
 
 class SignIn extends React.Component{
+
+    state={
+        login:'',
+        mail:'',
+        password:'',
+        birthday:'',
+        phone:'',
+    }
+
+    handleLoginChange = (e) => this.setState({ login: e.target.value });
+    handleMailChange = (e) => this.setState({ mail: e.target.value });
+    handlePasswordChange = (e) => this.setState({ password: e.target.value });
+    handleBirthdayChange = (e) => this.setState({ birthday: e.target.value });
+    handlePhoneChange = (e) => this.setState({ phone: e.target.value });
+
     render(){
         return (
             <form className="sign-in--wrapper">
              <h2>Création d'un compte</h2>
              <div className="sign-in--form">
                  <label htmlFor="identifiant"> Identifiants : </label>
-                 <input type="text" name="identifiant" id="nom" placeholder=" Nom + Prénom"/> 
+                 <input type="text" name="identifiant" id="nom" placeholder=" Nom + Prénom" value={this.state.login} onChange={this.handleLoginChange}/> 
              </div>
              <div className="sign-in--form">
                 <label htmlFor="mail"> Adresse e-mail : </label> 
-                <input type="text" name="mail" id="mail" placeholder=" adresse@yahoo.fr"/> 
+                <input type="text" name="mail" id="mail" placeholder=" adresse@yahoo.fr" value={this.state.mail} onChange={this.handleMailChange}/> 
              </div>
              <div className="sign-in--form">
                 <label htmlFor="text"> Mot de passe : </label> 
-                <input type="password" name="code" id="code" placeholder="Minimum 6 caractères"/> 
+                <input type="password" name="code" id="code" placeholder="Minimum 6 caractères" value={this.state.password} onChange={this.handlePasswordChange}/> 
              </div>
              <div className="sign-in--form">
                 <label htmlFor="age"> Date de naissance : </label>
-                <input type="date" name="age" id="age"/> 
+                <input type="date" name="age" id="age" value={this.state.birthday} onChange={this.handleBirthdayChange}/> 
              </div>
              <div className="sign-in--form">
                 <label htmlFor="tel"> Téléphone : </label>
-                <input type="text" name="tel" id="tel" placeholder=" Exemple : 06 .. .. .. .."/> 
+                <input type="text" name="tel" id="tel" placeholder=" Exemple : 06 .. .. .. .." value={this.state.phone} onChange={this.handlePhoneChange}/> 
              </div>
              <div className="sign-in--form">
                 <label htmlFor="danseur"> Êtes-vous danseur/danseuse ? : </label>

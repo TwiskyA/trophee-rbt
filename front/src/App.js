@@ -7,11 +7,13 @@ import SignIn from './signIn/SignIn';
 import LogIn from './signIn/LogIn';
 import LogOff from './signIn/LogOff';
 import Code from './signIn/Code';
+import './App.css';
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <div className="app">
+     <BrowserRouter>
       <Header />
       <Route exact path="/" component={MainEvent} />
       <Route path="/authentication/signin" component={SignIn} />
@@ -19,7 +21,8 @@ function App() {
       <Route path="/authentication/logoff" component={LogOff} />
       <Route path="/reservation" component={Question} />
       <Route path="/code" component={Code} />
-    </BrowserRouter>
+     </BrowserRouter>
+    </div>
   );
 }
 

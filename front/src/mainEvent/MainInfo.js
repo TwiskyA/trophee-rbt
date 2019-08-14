@@ -2,20 +2,22 @@ import React from 'react';
 import './MainInfo.css';
 
 class MainInfo extends React.Component {
+  
   render() {
+    const { data } = this.props;
     return (
       <div className="main-info--wrapper">
-        <h1>3ème Trophée Danses et Spectacles de Rambouillet</h1>
+        <h1>{data.title}</h1>
         <div className="main-info--subtitles">
-          <h2>Pôle culturel de la Lanterne</h2>
-          <h2>26 Octobre 2019</h2>
+          <h2>{data.location && data.location.name}</h2>
+          <h2>{data.date}</h2>
         </div>
         <div className="main-info--place">
-          <h3>5 rue Gautherin à Rambouillet</h3>
+          <h3>{data.location && data.location.adress}</h3>
         </div>
         <div className="main-info--subtitles">
-          <h3>Matinée : 15€ / Soirée : 25€ / Journée : 30€</h3>
-          <h3>Matin : 9h / Soirée : 20h</h3>
+          <h3>{data.price}</h3>
+          <h3>{data.hours}</h3>
         </div>
       </div>
     );

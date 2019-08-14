@@ -1,16 +1,8 @@
 .activated {
-    color: green;
+    background-color: black;
+    color: white;
 }
 
 .header--menu {
     display: flex;
-}
-
-.menu {
-    width: 20%;
-    text-align: center;
-}
-
-.menu h3 {
-    text-align: center;
 }

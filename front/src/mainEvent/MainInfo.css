@@ -5,7 +5,7 @@
 }
 
 .main-info--wrapper {
-  border: 1px solid black;
+  border: 10px double rgb(209, 19, 13);
   padding: 1em;
   border-radius: 1em;
 }

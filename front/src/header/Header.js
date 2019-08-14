@@ -10,7 +10,6 @@ class Header extends React.Component {
                 <h2>Association DANSES ET VOUS 78</h2>
                 <h4>En partenariat avec  l'école Mdanse78 </h4>
             </div>
-            <span> </span>
             <Menu />
         </div>
            

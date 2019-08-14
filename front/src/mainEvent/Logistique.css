@@ -1,4 +1,6 @@
 .logistique-details--link a {
     font-size: 1.4em;
     text-decoration: underline;
+    font-weight: bold;
+    color: rgb(209, 19, 13);
 }
