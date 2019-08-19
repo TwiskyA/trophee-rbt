@@ -1,11 +1,17 @@
 .header--banner {
-    width: 100%;
+    background-color: rgb(50, 50, 50);
+    margin-bottom: 7em;
     height: 5em;
-    border: 3px double black;
-    margin-bottom: 2em;
-}
-
-.container {
     display: flex;
+    justify-content: space-between;
+    line-height: 1em;
 }
 
+.header-box{
+color: white;
+text-decoration: none;
+}
+
+.header-link{
+    padding: 0 1em;
+}

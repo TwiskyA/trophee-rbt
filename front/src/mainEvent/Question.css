@@ -1,15 +1,12 @@
 .question--wrapper {
     width: 25%;
     margin: auto;
-    border: 1px solid black;
     padding: 1.5em;
     text-align: center;
+    border-radius: 1em;
+    box-shadow: 2px 2px 0px grey, 2px 0px 2px grey, 0px -2px 2px grey, -2px 0px 2px grey;
   }
 
 .question--compte {
     margin: 1em;
-}
-
-.active {
-    background-color: green;
 }

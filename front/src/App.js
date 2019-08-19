@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from "react-router-dom";
 import Header from './header/Header';
+import Footer from './header/Footer';
 import MainEvent from './mainEvent/MainEvent';
 import Question from './mainEvent/Question';
 import SignIn from './signIn/SignIn';
@@ -21,6 +22,7 @@ function App() {
       <Route path="/authentication/logoff" component={LogOff} />
       <Route path="/reservation" component={Question} />
       <Route path="/code" component={Code} />
+      <Footer/>
      </BrowserRouter>
     </div>
   );

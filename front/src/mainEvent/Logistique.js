@@ -11,7 +11,9 @@ class Logistique extends React.Component{
     const { content } = this.props;
     return (
       <div className="logistique-details--link">
+        <button>
         <a onClick={this.toggleFolded}>+ d'infos logistiques</a>
+        </button>
         {!folded && <ul>{content.map(item => <li>{item}</li>)}</ul>}
       </div>
     );

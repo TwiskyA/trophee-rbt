@@ -1,0 +1,9 @@
+.footer {
+    margin-top: 5em;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    min-height: calc(6vh - 20px);
+    padding-bottom: 20px;
+}

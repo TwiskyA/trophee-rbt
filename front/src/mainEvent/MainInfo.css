@@ -1,21 +1,31 @@
-.main-info--subtitles {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 1em;
-}
-
 .main-info--wrapper {
-  border: 10px double rgb(209, 19, 13);
-  padding: 1em;
+  padding: 0 2em;;
   border-radius: 1em;
+  box-shadow: 2px 2px 0px grey, 2px 0px 2px grey, 0px -2px 2px grey, -2px 0px 2px grey;
 }
 
 .main-info--wrapper h1{
-  margin: 0 0.2em;
-  padding: 0.5em;
+  margin: 0.2em;
   text-align: center;
+  line-height: 5em;
 }
 
-.main-info--place h3 {
-  margin-left: 1em;
+.wrapp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-info--location {
+  justify-content: space-between;
+  margin: 0 1em;
+  line-height: 3em;
+}
+
+.main-info--subtitles {
+  line-height: 4em;
+}
+
+.main-info--subtitles h2 {
+  margin-left: 5em;
+  padding-bottom: 1em;
 }

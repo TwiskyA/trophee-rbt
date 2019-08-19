@@ -1,30 +1,35 @@
 .program--wrapper {
-  display: flex;
   justify-content: space-between;
   padding: 1em;
-  margin: 0.3em 0.6em;
+  margin: 5em 0.6em;
   width: 100%;
 }
 
 .program--column {
-  width: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.program--separator {
-  width: 0;
-  border-right: 2px solid black;
-  margin: 0.3em 0;
+ .program--column h2{
+      text-align: left;
 }
 
 .program--afternoon {
-  margin-top: 0.3em;
+  width: 40%
 }
 
-.program--column h2{
-  text-align: left;
-  text-shadow: 1px 1px 2px grey;
+.program--details {
+  margin-top: 5em;
 }
 
-.program-details--link a{
-  text-decoration: underline;
+.program--separator {
+  display: flex;
+  border-right: 1px solid black;
+  margin: 0.3em 0;
+}
+
+.program--night {
+  width: 40%;
+  margin-left: 5em;
 }

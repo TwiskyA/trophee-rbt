@@ -8,7 +8,7 @@ import './MainEvent.css';
 
 class MainEvent extends React.Component {
   state={
-    data:{}
+    data: null
   }
 
   componentDidMount() {
@@ -16,18 +16,28 @@ class MainEvent extends React.Component {
   }
 
   render() {
+    const { data } = this.state
+    
+    if (!data) {
+      return null;
+    }
+
     return (
       <div className="main-event--wrapper">
-        <MainInfo data={this.state.data}/>
-        <Program data={this.state.data}/>
-        <Logistique content={[
-           'Restauration possible sur place',
-           'Places de parking à proximité mais pensez au covoiturage',
-            'Vestiaires non surveillé',
-            'Accès PMR possible'
-         ]}/>
-         <div className="link">
-          <Link to='/reservation' >Réservations →</Link>
+        <MainInfo data={data} />
+        <Program data={data.program} />
+        <Logistique
+          content={[
+            "Restauration possible sur place",
+            "Places de parking à proximité mais pensez au covoiturage",
+            "Vestiaires non surveillé",
+            "Accès PMR possible"
+          ]}
+        />
+        <div className="link">
+          <button className="resa">
+            <Link to="/reservation">Je réserve !</Link>
+          </button>
         </div>
       </div>
     );

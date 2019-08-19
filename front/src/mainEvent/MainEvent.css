@@ -1,7 +1,22 @@
 .main-event--wrapper {
-  margin: 1em 10%;
+  margin: 1em 5%;
   }
+
+.resa {
+  height: 3em;
+  width: 8em;
+  font-size: 1em;
+  border-radius: 0.8em;
+  border:0.1em solid rgb(50, 50, 50);
+  font-weight: bold;
+}
 
 .link {
   text-align: center;
 }
+
+.link a {
+  color: rgb(50, 50, 50);
+}
+
+

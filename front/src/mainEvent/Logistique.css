@@ -1,6 +1,12 @@
+.logistique-details--link button {
+  height: 3.5em;
+  width: 15em;
+  border-radius: 0.8em;
+  border:0.1em solid rgb(50, 50, 50);
+}
+
+
 .logistique-details--link a {
     font-size: 1.4em;
-    text-decoration: underline;
-    font-weight: bold;
-    color: rgb(209, 19, 13);
+    color: black;
 }

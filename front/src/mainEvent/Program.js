@@ -1,6 +1,5 @@
-import React from 'react';
-import ProgramDetails from './ProgramDetails';
-import './Program.css';
+import React from "react";
+import "./Program.css";
 
 class Program extends React.Component {
   render() {
@@ -8,34 +7,24 @@ class Program extends React.Component {
     return (
       <div className="program--wrapper">
         <div className="program--column">
-          <div>
-            <h2>{data.title1}</h2>
-            <ul>
-              <li>
-                {data.hour1}
-                <ProgramDetails content="Compétitions Standards et Latines - Eliminatoires" />
-              </li>
-            </ul>
-          </div>
           <div className="program--afternoon">
-            <h2>{data.title2}</h2>
-            <ul>
-              <li>
-                {data.hour2}
-                <ProgramDetails content="Compétitions Standards et Latines - Eliminatoires et petites finales" />
-              </li>
-            </ul>
+            <h3>{data.title1}</h3>
+            <h4>{data.hour1}</h4>
+            {data.details1.title}
+            <br />
+            {data.details1.type}
+            <div className="program--details">
+              <h3>{data.title2}</h3>
+              <h4>{data.hour2}</h4>
+              {data.details2}
+            </div>
           </div>
-        </div>
-        <div className="program--separator" />
-        <div className="program--column">
-          <h2>{data.title3}</h2>
-          <ul>
-            <li>
-              {data.hour3}
-              <ProgramDetails content="Finales des grandes compétitions Standards et Latines - Danse 'public' et Shows" />
-            </li>
-          </ul>
+          <div className="program--separator" />
+          <div className="program--night">
+            <h3>{data.title3}</h3>
+            <h4>{data.hour3}</h4>
+            {data.details3}
+          </div>
         </div>
       </div>
     );

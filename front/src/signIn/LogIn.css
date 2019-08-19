@@ -1,3 +1,11 @@
+.log-in--wrapper {
+    width: 30%;
+    margin: auto;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 2px 2px 0px grey, 2px 0px 2px grey, 0px -2px 2px grey, -2px 0px 2px grey;
+  }
+  
 .log-in--wrapper h2 {
     text-align: center;
 }
@@ -5,13 +13,6 @@
 .log-in--wrapper h3 {
   text-align: center;
 }
-
-.log-in--wrapper {
-    width: 30%;
-    margin: auto;
-    border: 1px solid black;
-    padding: 1em;
-  }
   
 .log-in--form {
     margin: 0 0 1.25em 3.25em;
@@ -19,13 +20,10 @@
 
 .log-in--submit {
     text-align: center;
+    margin: 0.8em 3em 0.2em 3em;
 }
 
-.sign-in--submit {
-  margin: 0.8em 3em 0.2em 3em;
-}
-
-.sign-in--submit span{
+.log-in--submit span{
   margin-left: 0.6em;
 }
 
